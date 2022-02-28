@@ -1,0 +1,341 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A sermon preached on the 27th of January, 1673/4 before several persons who formerly have had their education in St. Paul's School, London. / By R.P. member of that society.</title>
+            <author>R. P.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1674</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 36 KB of XML-encoded text transcribed from 15 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A90346</idno>
+            <idno type="STC">Wing P102A</idno>
+            <idno type="STC">ESTC R181389</idno>
+            <idno type="EEBO-CITATION">43078107</idno>
+            <idno type="OCLC">ocm 43078107</idno>
+            <idno type="VID">151630</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A90346)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151630)</note>
+            <note>Images scanned from microfilm: (Early English Books, 1641-1700 ; 2268:7)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A sermon preached on the 27th of January, 1673/4 before several persons who formerly have had their education in St. Paul's School, London. / By R.P. member of that society.</title>
+                  <author>R. P.</author>
+                  <author>St. Paul's School (London, England)</author>
+               </titleStmt>
+               <extent>[8], 21 p.   </extent>
+               <publicationStmt>
+                  <publisher>[s.n.],</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>Printed, Anno Dom, 1674.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in: Bodleian Library, Oxford, England.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Bible. --  N.T. --  Philippians III, 7 --  Sermons.</term>
+               <term>Sermons, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2011-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2011-01</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-05</date>
+            <label>Holly Beeman</label>Sampled and proofread</change>
+         <change>
+            <date>2011-05</date>
+            <label>Holly Beeman</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:151630:1" rendition="simple:additions"/>
+            <p>A SERMON Preached on the 27<hi rend="sup">th</hi>. of <hi>January,</hi> 1673/4.</p>
+            <p>BEFORE SEVERAL PERSONS Who Formerly have had their EDUCATION IN St. Paul's School, LONDON.</p>
+            <p>By <hi>R. P.</hi> Member of that SOCIETY.</p>
+            <q>
+               <hi>Wiſdome is juſtified of her Children.</hi>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed, Anno Dom. 1674.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:151630:2"/>
+            <pb facs="tcp:151630:2"/>
+            <head>TO THE READER.</head>
+            <p>
+               <seg rend="decorInit">T</seg>He Contrariant Principles, and Diſſen<g ref="char:EOLhyphen"/>ting Intereſts of the Men of this Age and Nation, have prevailed to hin<g ref="char:EOLhyphen"/>der the Cenſures which ſome Mens Deviſes and Practices have too well Deſerved: By meanes of which they have taken the confidence to Diſcover thoſe Latent Inclinations, which they ſometime concealed for fear of the <hi>Areopagites.</hi>
+            </p>
+            <p>Two Notable Factions have lift up their Heads to the apparent Danger of Government, Virtue, and true Religion. The one of theſe call all Matters into Queſtion, and ſo Diſcard the Duty of Man-kind; <hi>Pyrrhon</hi> is their old Maſter, whoſe Creed they pro<g ref="char:EOLhyphen"/>feſs in his own termes. He<note place="margin">
+                  <q>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, <bibl>Diogen. Laert. <hi>in vita</hi> Pyrrhonis.</bibl>
+                  </q>
+               </note> gave out that there was nei<g ref="char:EOLhyphen"/>ther Good, nor Evill, Juſt, or unjuſt; nothing was re<g ref="char:EOLhyphen"/>ally ſo, only by law and cu<g ref="char:EOLhyphen"/>ſtome ſomewhat was approved, and ſomewhat di<g ref="char:EOLhyphen"/>ſtasted, or Decryed; Theſe are, and needs muſt be
+<pb facs="tcp:151630:3"/>
+open Atheiſts, impudently Profane, and Gro<g ref="char:cmbAbbrStroke">̄</g>ſs Bla<g ref="char:EOLhyphen"/>ſphemers of God, and all Virtue.</p>
+            <p>To theſe I ſay, that they Degrade their own Na<g ref="char:EOLhyphen"/>tures, and if they ſay true, are not Men, to whom conſcience doth as centainly belong as any other power of Reaſon; and they are only Serpents, the ſubiileſt of all the Beaſts of the Field, though in Mans like<g ref="char:EOLhyphen"/>neſs. The Fabrick of Heaven and Earth is the great ſtanding Miracle which muſt convince them of an Eternal Power and God-head. But if this have no Effect, Divine Mercy will have no further trou<g ref="char:EOLhyphen"/>ble with them; they are <hi>Anathema Marenatha</hi> al<g ref="char:EOLhyphen"/>ready, and ſhall ſoon feel the Fury of that God whom they will not know: In the mean time it may be he will bring down ſome of theſe <hi>Nebucadnezars</hi> to the Baſeneſs of all Ignominy, and to Graze with the <hi>Head</hi> till they know that the moſt High Reignes, and doth whatſoever he pleaſeth. <hi>The Lord Reigns.</hi>
+            </p>
+            <p>The other ſort are of thoſe who boast of the ſharp<g ref="char:EOLhyphen"/>neſs of their Wit, and their abſolute liberty of Will, hoth which make them in their own Opinions at leaſt, <hi>Ethereal Genii,</hi> and in the Dialect of the <hi>Stoicks,</hi> ſuch as may compare with <hi>Jupiter</hi> himſelf; for they tell us, that they are ſo Intirely at their own conduct, and choice, that God cannot Interpoſe, or alter them, but by that very act, he violates the Right of their Natures, and overthrows the Order of Humanity, ſo that they are neither praiſe-worthy for well-doing, nor yet puniſhable for Miſdemeanors.</p>
+            <p>
+               <pb facs="tcp:151630:3"/>Many of this ſort bid Defyance to the others, and would be thought like <hi>Atlas,</hi> to hold up Heaven with their ſhoulders; they lay the Foundations of Nature, Society, Equity, Purity, and Piety, and challenge their Adverſaries to Duel them therein. But while they go not forth to Battle in the ſtrength of the Lord of Hosts, they have not I think, been ſuccesful in their Encounters, as the huge increaſe of Infidelity ever ſince this Conteſt began, will bear Witneſs. Let me ſay ſomewhat of the preſumption of theſe Men, and ſomewhat of their Principles.</p>
+            <p>I acknowledg it is a Worthy Endeavour, and De<g ref="char:EOLhyphen"/>ſerves all the learning of this, or any other Age, to Diſcover the ſtability and rectitude of Moral and Chriſtian Principles: But as it fares in Naturals, that no man knows the Work of God to Perfection, ſo is it undoubtedly in Spirituals: It is neceſſary then that they which undertake this Work be heartily humble, that they ſeek the illumination of the Glorious God, and have well-believed, and learned themſelves what they would teach to others; Otherwiſe their own miſconceptions of the things they would Evi<g ref="char:EOLhyphen"/>dence, their imperfect <hi>Ratiocinations</hi> concerning them, will as they have done, Embolden their Ad<g ref="char:EOLhyphen"/>verſaries to conclude, that their probable Aſſertions have derived their Reputation, as it were wholly from the Politick Councels of Princes, and the Craft of Prieſts. Thus we ſhall make ſhort Work, and at once burn our <hi>Ethicks,</hi> and our <hi>Bibles.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:151630:4"/>As to their Principles: I affirm that to the beſt of my <g ref="char:V">Ʋ</g>nderſtanding, they which Aſſert an <g ref="char:V">Ʋ</g>ngover<g ref="char:EOLhyphen"/>nable and Incontroulable Liberty, are as Dangerous, though more ſlye Enemies of God, and true Righte<g ref="char:EOLhyphen"/>ouſneſs: The Difference is not ſo great as may ſeem, for one part deny's the power of God, the other his Grace. One Affronts the Article of <hi>Credo in Deum Patrem, &amp;c. Creatorem Caeli &amp; Terrae,</hi> the other Diſavow's <hi>Credo in Spiritum Sanctum.</hi> Yea I proteſt it to be Diſhonourable to God, unbecoming his Wiſdom, to beſtow his Grace upon thoſe that Declare they need it not; Yea it is Hypocriſie for them to ask it, and contrary to the Tenor and <hi>Oeconomy</hi> of the Goſpel. The Atheiſt will be Wiſer than Chriſtiani<g ref="char:EOLhyphen"/>ty; the Libertine will not be beholden to Christ: both theſe I hold equally falſe, perilous, and impu<g ref="char:EOLhyphen"/>dent.</p>
+            <p>I leave them then to conſider, 1. If it were not in<g ref="char:EOLhyphen"/>diſcretion and weakneſs in God moſt Holy (I ſpeak as a Man) to make ſuch Creatures as Angels or Men, if according to theſe Mens ſuppoſals, he could not Govern them, incline, alter them, and have his Ends upon them. It is below the Wiſdom of ſuch Men as you, or my ſelf, to make any thing, if we had power, and give it ſuch excellent Liberty as ſhould ſet it out of our Reach, Dominion, or Controle; Wherefore it is impoſſible with me to Believe that God hath done ſo.</p>
+            <p n="2">
+               <pb facs="tcp:151630:4"/>2. If Man have ſuch power and liberty as God cannot touch or intermeddle with, then is all Religi<g ref="char:EOLhyphen"/>on and Righteouſneſs the proper fruit and product of our Sole Endeavours, which he that ſaith, muſt needs forget, or never have underſtood what he ſpeaks of; For he that hath attained to pure and undefiled Re<g ref="char:EOLhyphen"/>ligion, behaves himſelf Really and Honestly, though not perfectly ſo as the <g ref="char:V">Ʋ</g>nſearchable Wiſdom of God hath nothing to find fault with, hath arrived to the Life, Goodneſs, and Holineſs of God, hath ſo Re<g ref="char:EOLhyphen"/>conciled himſelf to his Majeſty, that he hath no Of<g ref="char:EOLhyphen"/>fence or Enmity againſt him: He that Believes that he can perform all this without Heavenly help, is nei<g ref="char:EOLhyphen"/>ther acquainted with God or Man; He Abandons his Creator to keep Hogs and Sheep, to uſe his Provi<g ref="char:EOLhyphen"/>dence about Beaſts, Birds, and Fiſhes; But as for the great Man himſelf, he is <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+            </p>
+            <p n="3">3 If God doth not concern himſelf with the free in<g ref="char:EOLhyphen"/>ward Actions of Men, all the Miniſters of Religion muſt forthwith ceas, for then they are but Vain and Hypocritical: If no Virtue Deſcend from the Almigh<g ref="char:EOLhyphen"/>ty by them, what do they pretend to? I know not, and leave the conſideration of it to them that do.</p>
+            <p>Both theſe grand Miſcarriages which I have now ſpoken of proceed not from Phlegmatick and Pleboian Souls; they are the deadly Weeds that grow in buſie and aſcending minds; this Poyſon is not Expreſſed
+<pb facs="tcp:151630:5"/>
+from the ſtupifying Hemlock, but from piercing, en<g ref="char:EOLhyphen"/>terpriſing, ſublimate, and is moſt Diſpleaſing to that high God, who moſt of all hateth Spiritual Wicked<g ref="char:EOLhyphen"/>neſs. Some might happily ſuppoſe that when I was to ſpeak to a Society of ſuch Learned Men, I ſhould have Courted them with a Panegyric of Arts and Knowledge, that it became me <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> with the Fellow in <hi>Athenaeus:</hi> But I thought it my Wiſdom and Duty rather to profit, than pleaſe you, to ſhow the uſe and danger of abuſing what you have, or might have, than puff you up with a Vain Opinion of it.</p>
+            <p>For this end and purpoſe, being deſired to Allow Copies of what I ſpake to you, I was content to ſuf<g ref="char:EOLhyphen"/>fer all to be made Publick. I Beſeech therefore the Father of Lights, and God of all <hi>Grace</hi> to make it a Bleſſing to thoſe that ſhall peruſe it.</p>
+            <closer>
+               <dateline>Horton, <date>Feb. 2.</date>
+               </dateline>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="sermon">
+            <pb n="1" facs="tcp:151630:5"/>
+            <epigraph>
+               <q>
+                  <bibl>PHILIP. 37.</bibl>
+                  <p>But what things were Gain to me, thoſe I counted Loſs for Chriſt.</p>
+               </q>
+            </epigraph>
+            <p>
+               <seg rend="decorInit">S</seg>T. <hi>Paul</hi> (whoſe Name our Foun<g ref="char:EOLhyphen"/>der of Happy Memory would have us bear, profeſſes himſelf a great Linguiſt (1 <hi>Cor. 14. 8. v) I thank my God I ſpeak with Tongues more then you all;</hi> and ſince the Wiſ<g ref="char:EOLhyphen"/>dom of the Prince is well diſcerned in choſing a<g ref="char:EOLhyphen"/>ble Miniſters and Inſtruments for his Buſineſs, Chriſt the King of Kings, and the wiſdom of all the Wiſe, gives us to underſtand that for Intel<g ref="char:EOLhyphen"/>lectuals, Morals, Spirituals, and Fidelity in the uſe of them all, never any exceeded or equalled this Man, for for to him he committed that truſt, which was formidable even to Angels; he ſent of them to joy a righteous, but ſorrowful Soul, to
+<pb n="2" facs="tcp:151630:6"/>
+encourage a fearful minded Man, to ſtrengthen a ſtaggering Faith; they had but one particular, lit<g ref="char:EOLhyphen"/>tle Work to do, muſt ſay no more then the per<g ref="char:EOLhyphen"/>ſon, and preſent Caſe required, and flee up a<g ref="char:EOLhyphen"/>gain to their Heavenly Habitations. But our Apo<g ref="char:EOLhyphen"/>ſtle was to lay the foundations of eternal truth and holineſs for all Generations, to give an Ex<g ref="char:EOLhyphen"/>ample in himſelf, a repenting ſinner, of doing and ſuffering according to the perfect Will of God, and to tranſact the Affairs of the Kingdome of Heaven with all the World.</p>
+            <p>I cannot ſurmiſe then Reverend and Learned Fathers and Brethren, that any of usſhould be ſo ſick of an evil <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a windy conceit, or haugh<g ref="char:EOLhyphen"/>ty preſumption of our ſelves, as to deſpiſe the counſel, or practice of ſo great a Maſter in things both Humane and Divine. He did not mount up aloft, and ſing to himſelf, he did not pleaſe him<g ref="char:EOLhyphen"/>ſelf with the Muſick of his own Notes; he did not ſo far forget himſelf as to think his own things were for his own Uſe and Admiration, but pro<g ref="char:EOLhyphen"/>ſtrated all at the feet of the Lord Jeſus <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, <hi>I thought them all,</hi> ſaith he, <hi>loſs for Chriſt Jeſus.</hi>
+            </p>
+            <p>If you look back upon the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> what things they were he made ſo light of, they ſeem no way contemptible: as (1.) He was Circumciſed the Eighth day; he was early and duly Conſecrated to
+<pb n="3" facs="tcp:151630:6"/>
+God like <hi>Iſaac</hi> the Son of the Promiſe; he was taken into the Covenant, and ſo under the Co<g ref="char:EOLhyphen"/>verture of Gods mercy, and under the influence of his Grace. (2.) He was of the ſtock of <hi>Iſra<g ref="char:EOLhyphen"/>el,</hi> a Legitimate Son of the Holy Seed, born in the Houſe of God, had right to all the Ordinances &amp; Promiſes of God. Of this the Antient Jew boa<g ref="char:EOLhyphen"/>ſted more Warrantably, then any one now can of his Family, or Honourable Anceſtors, (<hi>Rom. 9. 4.) Whoſe are the Fathers, and of whom as concer<g ref="char:EOLhyphen"/>ning the fleſh Chriſt came, who is over all God bleſſed for ever.</hi> (3.) Of the Tribe of <hi>Benjamin,</hi> that is one of the moſt innocent and beloved Families of the Patriarchal Race; not by the Concubine, or Bond-Woman, but by the lawfull Wife, and Free.</p>
+            <p>Not by the deſpiſed and ſuborned <hi>Leah,</hi> but by the choſen and beloved <hi>Rachel;</hi> of a Country which lay not far from the Holy City, and the Houſe of its God, and ſo fit to enjoy the Society of Holy Prophets, Prieſts, and Peers, and hear the Wiſdom and determinations of their Oracles. For the ſhire-line of its Diviſion run through the ſtreets of <hi>Jeruſalem,</hi> though the Temple was in <hi>Judah.</hi>
+            </p>
+            <p>—<hi>Diviſa erat <g ref="char:V">Ʋ</g>rbs</hi> (Hierſo<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ym.) <hi>inter Tribum</hi> Judae <hi>&amp;</hi> Benjaminis. <hi>Proceſſit<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> linea diſterminans per ipſum atrium Templi.</hi> Gloſs. in Sanhedr.</p>
+            <p>
+               <pb n="4" facs="tcp:151630:7"/>(4,) He was an <hi>Hebrew</hi> of the <hi>Hebrews;</hi> of Holy <hi>Parent's</hi> on both Sides: no proſyte, nor of later Inſtitution, but bred up from his Infancy in the knowledge of the Law by thoſe that had Learned it themſelves, with the firſt Rudiments of things.</p>
+            <p>If you ask hw it could be? when as he profeſ<g ref="char:EOLhyphen"/>ſes himſelf a free <hi>Roman</hi> by birth, 22 <hi>Acts 28. Photius</hi> the Learned Patriarch of <hi>Conſtantinople</hi> reſolves you well;<note place="margin">
+                  <q>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>, &amp;c. <bibl>
+                        <hi>Phot,</hi> in Epiſt. <hi>Euſchaem, Caeſar,</hi> Archiopiſc.</bibl>
+                  </q>
+               </note> His Father was born in <hi>Giſchala,</hi> a petty Town of <hi>Benjamin,</hi> but carried Captive with his Wife into <hi>Cilicia,</hi> where he Seated him<g ref="char:EOLhyphen"/>ſelf in <hi>Tarſus,</hi> and obtained the priviledge of a <hi>Roman.</hi> Soon after this (it is like) he had this Son, who hath been a Glorions bleſſing to all ſucceeding Ages. If you ſay, <hi>Sed genus &amp; proavos &amp; quae non fecinius ipſi, Vix eo noſtra voco,</hi> Mark <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> our Apoſtle was by Election and Inherent Virtue.</p>
+            <p>5. As to the Law he was a <hi>Phariſee;</hi> he choſe the ſtraiteſt Sect of profeſſion, <hi>Act.</hi> 26. 5. his Ma<g ref="char:EOLhyphen"/>ſter was <hi>Gamaliel</hi> of <hi>Jeruſalem,</hi> one of the Ho<g ref="char:EOLhyphen"/>neſteſt Men, and profoundeſt Scribes of the <hi>Sanhe<g ref="char:EOLhyphen"/>drim.</hi>
+            </p>
+            <p>(6.) As to his Zeale, indeed he perſecuted the Church; which miſtake of his had like to have
+<pb n="5" facs="tcp:151630:7"/>
+coſt him the favour of God; but before Men, hath this Excuſe and Mitigation that he meant to up<g ref="char:EOLhyphen"/>hold and ſecure that Religion which he knew was Originally from God himſelf.</p>
+            <p>(7.) As to the righteouſneſs of the Law, he was blameleſs: No Religion can ſave that Man who doth not live by the Rule and Direction of it; he doth but weakly receive his own Faith, who doth not Addreſs and Conform his Life ac<g ref="char:EOLhyphen"/>cordingly; We ſhall be found vaine boaſters, if we magnifie the reaſonableneſs of our Religion, when we diſavow it in our practice. <hi>Clemens</hi> of <hi>Alexandria</hi> hath Taught us well, <note n="b" place="margin">Clem. Stro<g ref="char:EOLhyphen"/>mat. l. 2.</note> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>: the Office and Buſi<g ref="char:EOLhyphen"/>neſs of Faith is to beget a new heart and life. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. He is a believer that obſerves the things which God hath delivered to him.</p>
+            <p>And what hath he delivered us, but (<gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>) his holy Comman<g ref="char:EOLhyphen"/>dements, which if we keep not, we as certainly believe, that God will refuſe our Souls.</p>
+            <p>You ſee then what Advantages our Apoſtle had, natural, and rational, civil, and religious; the pa<g ref="char:EOLhyphen"/>rallels of which, moſt of us, I truſt, have had by the glorious Grace and Donation of God, <hi>viz.</hi> an Early Baptiſm, were born Children of the Church, had our Education where Learning and
+<pb n="6" facs="tcp:151630:8"/>
+virtue is profeſſed, had the lively Oracles of God, <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Citizens, at leaſt for a time, of no meane City. I wiſh from my Soul now, that there be no profane perſon among us as <hi>Eſau,</hi> who by a naugh<g ref="char:EOLhyphen"/>ty life and behaviour blemiſhes this Gifts of God, his worthy Maſters, and his own Education.</p>
+            <q>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. <bibl>
+                  <hi>Origen. lib. 1. Contra Celſum.</hi>
+               </bibl>
+            </q>
+            <p>But if there be, and theſe Favours of God are beſtowed on him in vain, and his Pearls are tram<g ref="char:EOLhyphen"/>pled under foot, let ſuch a one bear his own bur<g ref="char:EOLhyphen"/>then, and his Iniquity will be heavy upon his head. Yet doth not his Abuſe detract any thng from the things themſelves, but they remain not <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, not in appearance only, but verily, and in truth great Gains. Is it a mean Advantage to be able to converſe with all the Worthy Souls in all parts and Ages of the World? Nothing to enjoy Conference with the <hi>Hero's</hi> paſt, and dead, and yet without Necroman<g ref="char:EOLhyphen"/>cy? To be in the <hi>Roman</hi> Senate, and hear the Maſculine Eloquence af <hi>Cicero,</hi> who made them yield to him, to whom all the World ſubmitted it ſelf, is this of no value? You may Accompa<g ref="char:EOLhyphen"/>ny <hi>Caeſar</hi> in all his Expeditions and victories, and know the Caball and Intrigues of ſo wiſe a Com<g ref="char:EOLhyphen"/>mander; but above all, to be privy to the Wiſ<g ref="char:EOLhyphen"/>dom
+<pb n="7" facs="tcp:151630:8"/>
+of God, to underſtand the Reſentments and holy affections of thoſe who had his moſt familiar Inſpirations, how Glorious is this? What a rai<g ref="char:EOLhyphen"/>ſing Education! Is it a mean Opportunity to ſtand next to Heaven Gate, to hear the Son of God call, come ye and Inherit Eternal life, to have him reach forth his hand to pu<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap> us up to him, if we do not wickedly ſcorn and refuſe ſo ſtupendi<g ref="char:EOLhyphen"/>ous a Grace? If I ſhould ſay more, which is not hard to do, we would be rather puffed up then Edified; for theſe External priviledges do eaſily beget <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, a confidence in our ſelves, and in our God wot what! Let me rather ſay, what kind of Gains theſe things are, that we may underſtand our ſelves and them, with their Nature and Uſe:</p>
+            <p n="1">And 1. They are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> rather Capacities then perfections, rather foundations then ſuper<g ref="char:EOLhyphen"/>ſtructures; they are excellent Inſtruments if held by a Wiſe and provident hand.</p>
+            <p n="2">2. They are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, things of a vari<g ref="char:EOLhyphen"/>able and middle nature, which may be uſed well or ill, according to the diſpoſition and prepara<g ref="char:EOLhyphen"/>tion of him that hath them; they are like the Sword which may Kill our Enemy, or Wound our Friend; not like the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> which you read of <hi>Hebr:</hi> 6. 9. the things that contain Salva<g ref="char:EOLhyphen"/>tion, which include it, which will bleſs and ſancti<g ref="char:EOLhyphen"/>fie
+<pb n="8" facs="tcp:151630:9"/>
+thoſe that have them, and bring them aſſuredly unto God.</p>
+            <p n="3">3. They are <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſuch gifts of God as flow from his Bouncy and good Will to us; though they are not the peculiar Inheritances of the children of the Kingdom, yet are they faire Legacies which any one would be glad to have. Shame then muſt cover their faces who have had the Key of Knowledge, and the Inſtitution of the Wiſe, and yet have not profited thereby. May I not ſay to ſome of you, What hath the Church or Nation, your company or Relations been the better for you, Or what you have been Learn<g ref="char:EOLhyphen"/>ing with ſo much paines and patience? May I not take up that of <hi>St: Augustin</hi> againſt you? <hi>Sur<g ref="char:EOLhyphen"/>gunt Indocti &amp; rapiunt Caelum, ſed nos cum Doctri<g ref="char:EOLhyphen"/>na in Gehennam detrudimur:</hi> The unlearned take Heaven by violence, and you and all your Learn<g ref="char:EOLhyphen"/>ing are thruſt into the Dungeon of utter Dark<g ref="char:EOLhyphen"/>neſs. Verily theſe things were Gains, a great and fair Eſtate; but if We have miſpent them, We ſhall give an Account to God, who knoweth the Worth and Weight of his own Talents.</p>
+            <p>I come now to the maine Aſſertion of the Apo<g ref="char:EOLhyphen"/>ſtle, and the Text, That as great as all theſe things are, He, and ſo We muſt count them all loſs for Chriſt Jeſus. He doth not require us to looſe them; for Chriſt Aſcended up on High, and be<g ref="char:EOLhyphen"/>ſtowed
+<pb n="9" facs="tcp:151630:9"/>
+theſe and ſuch like Gifts on Men, for the Edification of his body, which is the Church; and he doth not now mean that we ſhould throw them all away, as ſome in this Malevolent and per<g ref="char:EOLhyphen"/>verſe Age underſtand it: the Scholiaſt hath well attained the meaning of the Apoſtle, <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. He ſpeaks not ſimply, when he directs us to to count all loſs for Chriſt; as if he meant to revile the Law of God, his Gifts and Favours, as the <hi>Marcionites</hi>
+               <note place="margin">Occumen. in loc.</note> of old Conſtrued him. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, either in compariſon with Chriſt they are loſs, or elſe in Oppoſition they are not Worthy to appear.</p>
+            <p n="1">1. In compariſon of him; though theſe things have their Worth, yet if you reſpect <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, the far more excelling and tranſcendent Knowledg of the Lord Jeſus, they are meer droſs and dung. And now Brethren, I wiſh we may all appear to be true Scholars of <hi>St. Paul</hi> herein, Ye have heard his <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> his paſt, and preſent thoughts, and what he ever reſolved to think, that all theſe things, yea, if they were a thouſand times more Worth, are not yet Worthy to be Named with him, to be had or held if Chriſt be in the Counterpoiſe: <hi>Sequimurne patrem non paſ<g ref="char:EOLhyphen"/>ſibus aequis?</hi> Do we follow this Father and In<g ref="char:EOLhyphen"/>ſtructer in Jeſus, though with little <hi>Iulus</hi> we take
+<pb n="10" facs="tcp:151630:10" rendition="simple:additions"/>
+ſhorter ſtrides, and prove ſomewhat behind? In Chriſtian ſimplicity and verity, if you do not look upon Chriſt as the Sun in the Firmament, as one that infinitely outſhines all other glittering Excel<g ref="char:EOLhyphen"/>lencies, you are unworthy of him; let me add, ſo unworthy you are, that your Ingratitude will conſtraine him to With-hold the bleſſing of all from you, and the reproach you caſt upon him will kindle his righteous Indignation againſt your Souls; yea your Parts and Ornaments of Wit Art, Learning are Curſed to you, and Curſed be they all, if you exalt them above and againſt the Lord Jeſus our precious Saviour.</p>
+            <p>The grand Importance and Conſequence of this Argument hath conſtrained me to urge and pro<g ref="char:EOLhyphen"/>voke you a little for your good with theſe honeſt Interrogatories. 1. Is Chriſt the end of all your Accompliſhments? He is indeed the <hi>Alpha</hi> and <hi>Omega,</hi> the firſt and the laſt, the beginning and end of all things, but do you intend him? do you aime at him? do you count that all things are impertinent and vain that <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> do not Mini<g ref="char:EOLhyphen"/>ſter to him? do you reckon that you are fruſtra<g ref="char:EOLhyphen"/>ted in all your labours, if you have indeed the Reputation of Eminent, Learned, and Eloquent, but Jeſus Chriſt is not ſanctiſied, nor ſatisſied in the Salvation of his Redeemed ones? if the Lord Chriſt be principall, and all loſs in compari<g ref="char:EOLhyphen"/>ſon
+<pb n="11" facs="tcp:151630:10" rendition="simple:additions"/>
+of him, he muſt thus be the end of all. <hi>2ly.</hi> Do <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> look upon all your Ornaments and Acqui<g ref="char:EOLhyphen"/>ſitions but as meanes to this our end? In heart and conſcience do we thus apprehend? do We thus Operate? do we promote with the grea<g ref="char:EOLhyphen"/>teſt Zeal and Diligence thoſe things that lye nea<g ref="char:EOLhyphen"/>reſt to the heart of the Lord Jeſus, and are more precious to him than his blood? do we labour in our places and degrees that the people which he hath purchaſed may be redeemed from under the power of Satan? do we delight in ſealing to them the love of God, and the conſolation of the Spirit?</p>
+            <p>Do we Intend with Zeal and Heartineſs <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Men <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> would turn to Chriſt, and give him the glory which belongs to him? do We Intercede for them with God when they ſin, as thoſe that are truly toucht with the diſhonour and loſs of <hi>Chriſt</hi> himſelf? Is it our care in all our diſcourſe, private, or publick, to ſhew forth the unſearchable Riches of his Majeſty? If <hi>Chriſt</hi> be not the next end of our callings, yet is he the real and ultimate end of our converſation? If ye ſtudy the knowledge of the Laws, is it your principal aime that judgement and juſtice may be imparti<g ref="char:EOLhyphen"/>ally Adminiſtred, that the Oppreſſed may be de<g ref="char:EOLhyphen"/>livered, that we may all live in Godlineſs and Ho<g ref="char:EOLhyphen"/>neſty to the praiſe of <hi>Chriſt?</hi> Is it not rather that
+<pb n="13" facs="tcp:151630:11"/>
+you may get Wealth, Reputation, and victory, while <hi>Chriſt</hi> and his Members bleed and periſh? If you beſtow your ſelves upon Nature, is it your buſineſs to Advance the publick Good of Man<g ref="char:EOLhyphen"/>kind, and like Compaſſionate <hi>Samaritans</hi> to ſet free thoſe whom Satan hath bound in manifold Infirmities? If ye be Gentlemen of Eſtate, do you imploy your Authority, Intereſt, Wealth, and Power to Incourage the Profeſſion, Ordinances, and People of <hi>Chriſt?</hi> If Citizens, and Traders, Is it your care that Faithfulneſs, Juſt dealing, Equi<g ref="char:EOLhyphen"/>ty and Love may appear in all your Matters, and this for <hi>Christ</hi> his ſake, who hath called us to be Brethren? If not Sirs, we pervert the Text, we diſavow the Apoſtle, we looſe our right in <hi>Chriſt,</hi> we count that he is but loſs to us while the World is our Gain. If we do not thus aime at the Lord Jeſus, he is but light with us in the Scales of com<g ref="char:EOLhyphen"/>pariſon.</p>
+            <p>I proceed now to the <hi>2d.</hi> Particular from the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> to the <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap> to ſee if we reckon all but loſs for the Lord, when he is ſet in Oppoſition with other things: When Chriſt is ſet before us on this Hand, and the World with all its Glories on that, what do we choos? whom do we fol<g ref="char:EOLhyphen"/>low? what do we hold to? We ſhall deſpiſe one to give content to the other; and I pray Brethren, Where are our Hearts? God hath as I may ſay,
+<pb n="12" facs="tcp:151630:11"/>
+Furniſhed us Tables with Royal Daintyes; He ſets before us his own blood, and the fleſh of his Son, a Feaſt which the Arch-Angels of Heaven are not Invited to in like ſort: But there are Acorns alſo to be picked up, and the ſoure Fruits of the Hedge, As We feed, as we chooſe, ſo We diſcover our Nature and Appetite. Do we then, <hi>Christian Brethren,</hi> as the children of the Kingdom, as thoſe that are of a Celeſtial and Divine Race, (do We I ſay) feaſt our Souls with Gods precious <hi>Manna,</hi> the things of life Eternal? Do we not rather with Kites and Vultures fly upon the Carrion? do we not hunt as the Swine that we may glut our ſelves with the traſh and offal of this World? do we not glory in our hearts how much Wiſer we are than our Religion? do we not look down from our high contemplations, and deſpiſe the poor people who ſerve the Lord Jeſus in Humility, Sim<g ref="char:EOLhyphen"/>plicity, and the loſs of all things? do We not re<g ref="char:EOLhyphen"/>joyce in a <hi>Criticiſm</hi> more than in a Sacrament? have We not more Inward Satisfaction in little Expe<g ref="char:EOLhyphen"/>riment about matter, and motion, than in the Sanctification of the <hi>Spirit,</hi> and having our Names Written in the Book of Life? What is our Ele<g ref="char:EOLhyphen"/>ment my Friends? Where are we moſt our ſelves? Had we rather be in the company of the Holy Je<g ref="char:EOLhyphen"/>ſus, and doing his Work, than vending our ſelves as Acute and Learned? I beſeech you by the Mer<g ref="char:EOLhyphen"/>cies
+<pb n="14" facs="tcp:151630:12"/>
+of God, let us lay our hands upon our hearts, and ask within doors if theſe things be not too true with many of us; <hi>Chriſt</hi> ought to have had the preference, he is the Altar that muſt Sanctifie our Gold, our Gifts, and Parts, I meane, or they will never find acceptance before the Throne of God.</p>
+            <p>That this may be more effectual, let me pre<g ref="char:EOLhyphen"/>ſent you with a few <hi>Conſiderations</hi> Relating here<g ref="char:EOLhyphen"/>to, and I have done. 1 Know that <hi>Chriſt</hi> is Wor<g ref="char:EOLhyphen"/>thy of all the Intereſt that he claimes in your Hearts and Study's, Conſider the Dignity of his Perſon. We venture for him, We yield all to him, <hi>by whom all things were made in Heaven and Earth, viſible or inviſible, whether they be Thrones, or Dominions, Principalities, or Powers, and he is before all things, and by him all things conſiſt, 1 Coll.</hi> 16, 17. Think upon the Endearments of his Grace, the Zeal of his Love and Sufferings, that he might bring us into Friendſhip and Favour with God. Oh how nearly doth it concern us to get into his love, that we may live with God! Whether fall we if <hi>Chriſt</hi> be not our Friend? how do theſe things touch us to the quick, to the fleſh, and to the bone, yea to the marrow, and the Spi<g ref="char:EOLhyphen"/>rit? One day ſure the Acceptance and Favour of <hi>Chriſt Jeſus</hi> will be ſomewhat Worth. What is there then of all the Worldly Gauds and Glories
+<pb n="15" facs="tcp:151630:12"/>
+that you can ſet up as a Rival againſt his Glorious Majeſty? For what things will ye part with your Immortal Hopes in him? How eaſie, me thinks, it is to the believing ſerious Soul to ſcorn and tram<g ref="char:EOLhyphen"/>ple upon all thoſe things which we have ſometimes called Temptations? How reaſonable is it to boaſt in the Lord, and ſay, What ſhall ſeparate us from the Love of God in his dear and bleſſed Son? 2. If <hi>Chriſt</hi> have not the Headſhip and Dominion, he will blaſt the glory of all our Ex<g ref="char:EOLhyphen"/>cellencies, and tarniſh the beauty of them.</p>
+            <p>If we provoke him to jealouſie with our parts, wit, learning, his Indignation like a Canker will quickly Eat up our ſpringing Hopes and Glories. It hath been Obſerved always that the moſt preg<g ref="char:EOLhyphen"/>nant Wits in our Schools of Language, have not pro<g ref="char:EOLhyphen"/>ved the moſt Subſtantial in our Univerſities, &amp; the forwardeſt there alſo have not been the moſt ſer<g ref="char:EOLhyphen"/>viceable in the Church, or Nation; they have been as Trees Tranſplanted out of our Nurſeries which do not proſper accordingly in the Orchard where they ſhould bear Fruit: When as in the Interim many Obſcure and Unobſerved Souls have come forth from their Privacies like the Great <hi>Gregory</hi> from <hi>Nazianzum,</hi> a poor Country <hi>Village</hi> in <hi>Cap<g ref="char:EOLhyphen"/>padocia,</hi> who have been the Wonders of the Age, and the Glory of the <hi>Church.</hi> This comes to paſs not only from the divers Natures of the Wit, Ca<g ref="char:EOLhyphen"/>pacity,
+<pb n="16" facs="tcp:151630:13" rendition="simple:additions"/>
+and Abilities which are proper to the ſe<g ref="char:EOLhyphen"/>veral Studies, Imployments, and Excellencies; nor meerly that certain Intellects arrive to Ripe<g ref="char:EOLhyphen"/>neſs in their proper periods, before which they are harſh and unſavory; but chiefly and moſtly by the bleſſing of God upon their humility, pati<g ref="char:EOLhyphen"/>ence, and Integrity: When as the others have boaſted too much of the <hi>Ignis lambens</hi> that Envi<g ref="char:EOLhyphen"/>roned their Temples, and have Adored too much the brightneſs of their Intellectuals. <hi>Chriſt</hi> was not, could not be pleaſed that his Servants ſhould count themſelves his Betters, that they ſhould Be<g ref="char:EOLhyphen"/>live they knew what was Wiſdom better than himſelf; they have it may be with <hi>Herod</hi> re<g ref="char:EOLhyphen"/>ceived the Applauſe of them that cryed out, <hi>Nec vox hominem ſonat! the voice of God, and not of man!</hi> Thus the Angel of the Lord had ſmitten them with diſhonor; they bring to <hi>God</hi> the Sa<g ref="char:EOLhyphen"/>crifice of <hi>Cain,</hi> whoſe Error was of Old thought to be, that when he ſeemed to bring ſomewhat to <hi>God,</hi> yet too much too himſelf; for ye Read, (<hi>Gen.</hi> 4. 7.) after the <hi>Septuagint</hi> thus: <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>; If thou haſt brought a right and worthy Offering to God, but haſt not divided Right (between him and thy ſelf) haſt thou not ſinned? To this Reading agree both the <hi>Samaritan</hi> Text, and the <hi>Targum</hi> of <hi>Hie<g ref="char:EOLhyphen"/>ruſalem,</hi> though the <hi>Hebrew</hi> Bibles, and thoſe that
+<pb n="17" facs="tcp:151630:13" rendition="simple:additions"/>
+are derived thence have not the Words, The belief or Tradition of Antient times ſeems to have been, that in the <hi>Mincha,</hi> or Meat-Offering which <hi>Cain</hi> brought to the Lord, he took too much for his own Portion; wherefore God that hath no pleaſure in the Illibera<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>le Sacrifices of Churls, who think that all is too much which is beſtowed upon him, had no Reſpect to him, and refuſed to teſtifie his Acceptance by ſending down fire upon the Altar. But is not this our own caſe? have we not counted that <hi>Chriſt</hi> in Humility, Simplicity, Self-denial, Meekneſs, and Holineſs is but loſs, while the Reputation of Men, the praiſe and profit of the World have been thought all the Gaine? What do we then but ſet the Cele<g ref="char:EOLhyphen"/>ſtial and Royal Diadem of God upon our own Heads? ſhall he Incourage us in ſo Horrible a Sacriledge? ſhall he contribute to his own Diſho<g ref="char:EOLhyphen"/>nour?</p>
+            <p>
+               <hi>3ly.</hi> If all be not loſs for <hi>Chriſt</hi> with us, he may juſtly leave all our Parts and Ornaments to be our Infelicity, and the Bane and Miſchief of thoſe that converſe with us. If unbred Souls com<g ref="char:EOLhyphen"/>monly prove brutiſh, inconſiderate, ſtubborn, and profane; no leſſer or lighter Diſeaſes attend thoſe that have been quickned by Study, Exerciſe, and Education. The moſt ſpritely and vivacious Wits have alwayes proved moſt Ungovernable, the moſt
+<pb n="10" facs="tcp:151630:14" rendition="simple:additions"/>
+Turbulent Subjects in the State, the moſt Peſti<g ref="char:EOLhyphen"/>lent Heriticks in the Church, the worſt Friends, the worſt Neighbours, the worſt Husbands or Maſters to their Relations and Families. The Men of middle capacity and ſtature of mind have in the <hi>interim</hi> been ſucceſsful in their Affairs, peacable in their Deportment, treatable by their Allyes, and more truly profitable to the World. In Ten years there have been more Frayes and Seditions of one in City <hi>Florence,</hi> than in five hundred among the <hi>Switzers</hi> and <hi>Griſons,</hi> people of a ſlower <hi>Genius,</hi> and <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Mettle. But what need we go ſo far for Examples? See we not a<g ref="char:EOLhyphen"/>mong our ſelves, what the Audacious Wits of Men are daily endeavouring and practiſing? do we not ſee how our <hi>Capitones,</hi> Men of great and buſie Heads, cannot be at reſt, but they enterpriſe and examine every thing, and can ſuffer nothing to ſettle? how do they as with battering <hi>Rammes</hi> ſhake, undermine, demoliſh the very fences and foundations of Nature. Policy, Piety, and Socie<g ref="char:EOLhyphen"/>ty? They cenſure and judge of every matter; and what they have not ability to comprehend, or humility to ſubmit to, they deſpiſe as weak and imperfect, or will not Reverence as Holy.</p>
+            <p>
+               <pb n="11" facs="tcp:151630:14"/>Ill Work we make for our Governors Ec<g ref="char:EOLhyphen"/>cleſiaſtical or Civil, while we moleſt and vex them with our unruly practi<g ref="char:EOLhyphen"/>ces. when We ſhould help them to bear their Bur<g ref="char:EOLhyphen"/>thens.<note place="margin">
+                  <q>
+                     <gap reason="foreign">
+                        <desc>〈 in non-Latin alphabet 〉</desc>
+                     </gap>.<bibl>
+                        <hi>Origines</hi> libr. 1 <hi>Contra Celſum.</hi>
+                     </bibl>
+                  </q>
+               </note>
+            </p>
+            <p>While ſome be Wiſer than Chriſtianity, o<g ref="char:EOLhyphen"/>thers wiſer than the Laws, and all the reſt wiſer than their Teachers and Governors, we for<g ref="char:EOLhyphen"/>get our ſelves, and become Reprobate in our Manners and Converſations, <hi>Nobis obſequii glo<g ref="char:EOLhyphen"/>ria relicta eſt, Corn. Tacit.</hi> The glory of yeilding Obedience to thoſe that are over us in our proper Virtue and Eminence. What now is the cauſe of all this Diſorder? Learning? Knowledge? Wiſdome? God forbid that we ſhould have ſuch a Thought in our Hearts! God never gave Underſtanding to Men to do them Miſ<g ref="char:EOLhyphen"/>chief, no more than day-light to Blear our Eyes: But the Miſchief is, that we Eate more freely of the Tree of Knowledge, than of Life,
+<pb n="20" facs="tcp:151630:15"/>
+that we have knowledge in Superproportion to our Humility, ſelf-denyal, Modeſty, and San<g ref="char:EOLhyphen"/>ctity, and ſo that Sun which ſhould Enlighten our Earth, by our Ill conduct ſets it all on fire, and then inſtead of counting all our Wiſdome loſs for <hi>Chriſt,</hi> we are left to the tyranny and ſedi<g ref="char:EOLhyphen"/>tion of our Thoughts.</p>
+            <p>4. If we give not Chriſt the preeminence, our Rebellious Affections will pollute and de<g ref="char:EOLhyphen"/>prave our Judgements: This Honourable City which Traines up ſo many Youths to Learning, hath not in my Opinion been ſuitably Happy in them. The reaſon of which (beſides the fore<g ref="char:EOLhyphen"/>aſſigned) is like to be, that the Luxury and ma<g ref="char:EOLhyphen"/>ny vices of the place like Ill Weeds grow up with the Corn, and choak it that nothing comes to Perfection. By their Meanes they who ſhould have by their Studies made themſelves ſerviceable to the Lord Jeſus, become but more Ingenu<g ref="char:EOLhyphen"/>ouſly wicked. Ah! ſad concluſion of ſo much Goodneſs of God! To conclude, Learning is both Profitable and Honourable, it is the light of our Eyes, the Guide of our Lives, the proper Ex<g ref="char:EOLhyphen"/>cellency of Humane Nature: But if it claime precedence of <hi>Chriſt,</hi> though We were Angels of Heaven, it would bring us down to Hell: Take therefore the good Counſel of the bleſſed Apoſtle</p>
+            <pb n="21" facs="tcp:151630:15"/>
+            <q>
+               <bibl>1 <hi>Cor.</hi> 1. 30. 31.</bibl> 
+               <hi>Let Chriſt</hi> be <hi>made unto us of God, Wiſdom, and Righteouſneſs, and Sanctifi<g ref="char:EOLhyphen"/>cation, and Redemption, and let him that Glories glory in the Lord.</hi>
+            </q>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
